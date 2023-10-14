@@ -1,0 +1,4 @@
+assignment/.env
+moralis-mongo/.env
+assignment/node_modules
+moralis-mongo/node_modules
