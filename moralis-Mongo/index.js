@@ -3,7 +3,7 @@ const app = express();
 const port = 3131;
 const cors = require("cors");
 const { connectDB } = require("./utils/ConnectToDB");
-const { contacts } = require("./utils/TransferSchema");
+const { contacts } = require("./utils/ContactSchema");
 const ethers = require("ethers");
 
 app.use(cors());
